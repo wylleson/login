@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+}
+
+body {
+  background-image: url('https://abre.ai/bg-vector-nature');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #626262;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div#login-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.5);
+  border: .25rem solid white;
+  width: 24rem;
+  height: 32rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  -webkit-backdrop-filter: blur(.1rem);
+  backdrop-filter: blur(.1rem);
+}
+div#input-container {
+  width: 85%;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+div#email-container, div#password-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: .16rem solid rgb(255, 255, 255);
+  border-radius: .1rem;
+  width: 100%;
+  height: 2rem;
+}
+div#email-container > label, div#password-container > label {
+  text-align: right;
+  width: 4rem;
+}
+div#email-container > input[type=email], input[type=password] {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 14rem;
+  font-size: 1.25rem;
+}
+div#remember-password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 10.75rem;
+}
+div#input-container > button {
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 2rem;
+  border: none;
+  border-radius: 1rem;
+  font-weight: bold;
+}
